@@ -1,0 +1,36 @@
+header{
+    width: 100%;
+    background: none;
+    display: flex; 
+}
+.header_logo{
+    text-transform: uppercase;
+    color: blanchedalmond;
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 12%;
+}
+nav{
+    margin-top: 56px;
+    margin-left: 29%;
+}
+.topnav a{
+    color: blanchedalmond;
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.topnav a:hover{
+    border-bottom: 3px solid #fcac45;
+}
+.topnav .icon{
+    display: none;
+}
+.about-site{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

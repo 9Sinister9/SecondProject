@@ -1,12 +1,10 @@
+*,
 li,
-ol,
-p,
-a,
-body{
+ol,{
     margin: 0;
     padding: 0;
 }
 
-@media screen and (max-width: 1010px) {
-    
+a{
+    text-decoration: none;
 }
