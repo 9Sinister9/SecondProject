@@ -1,0 +1,25 @@
+/* родитель */
+.block{
+
+}
+
+/* flex-контейнер */
+.block__row{
+
+border: 10px solid #ece89d;
+display:flex;
+justify-content:space-around;
+}
+
+/* flex-элемент */
+.block__element{
+
+border: 5px solid #5e5373;
+}
+
+/* контент */
+.block__content{
+
+background-color: #18b5a4;
+/* плюс прочие стили для текста, отступы */
+}
